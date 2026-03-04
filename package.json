@@ -1,0 +1,31 @@
+{
+  "name": "rtp-relational-tech-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for the Relational Tech Project — relational tech principles, patterns, and the Studio library, portable to any AI builder tool",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "rtp-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "relational-tech",
+    "community-building",
+    "neighborhood",
+    "civic-tech"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0",
+    "tsx": "^4.19.0",
+    "@types/node": "^22.0.0"
+  }
+}
